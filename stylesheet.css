@@ -46,12 +46,15 @@ a, .signup-container > p {
     color: #E5E7EB;
     text-decoration: none;
     font-size: 18px;
+    margin-block: 0;
 }
 
 .one{
 
     background-color: #1F2937;
     align-items: center;
+    justify-content: center;
+    padding-block: 60px;
     
     
     
@@ -63,46 +66,184 @@ h1 {
     font-size: 48px;
     font-weight:bolder;
     color: #f9faf8;
+    margin-block: 0;
 }
 
 .signup-container {
 
 width: 400px;
-
+padding-right: 40px;
 }
 
+
+#signup {
+
+    background-color: #3882f6;
+    border-radius: 20px;
+    border: 2px;
+    size: 20px;
+    color: #f9faf8;
+    padding: 20px;
+}
 
 .img-container {
 
     width: 400px;
+    
+
+}
+
+.img-space { 
+
+
     height: 200px;
+    width: 400px;
     background-color: lightgray;
     margin-left: 0;
+}
+
+.two{
+
+    flex-direction: column;
+    align-items: center;
+
 
 }
 
 
-.two{
 
+h2 {
+
+    justify-content: center;
+    font-weight: 900;
+    font-size: 36px;
+    display: flex;
+    color: #1F2937;
+
+}
+
+.cards {
+
+    display: flex;
+    justify-content: center;
+    margin-inline: 300px;
+    gap: 30px;
+    flex-wrap: wrap;
     
 
+
+}
+
+.card-container {
+
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 150px;
+
+
+
+}
+.card-image {
+
+    width: 150px;
+    height: 150px;
+    border:4px solid #3882f6;
+    border-radius: 10px;
+    flex-shrink: 0;
+    margin-bottom: 1px;
+
+}
+
+.card-subtext {
+
+    margin-top: 1px;
+    justify-self: center;
+    text-align: center;
 }
 
 .three{
 
-    
+    background-color: #E5E7EB;
+    justify-content: center;
+    padding-inline: 300px;
 
+}
+
+.quote-wrapper {
+
+    
+    padding-block: 80px;
+
+
+}
+
+.quote {
+
+    font-style: italic;
+    font-size: 36px;
+
+}
+.person {
+
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .four {
 
+    justify-content: center;
+    align-items: center;
+    padding-block: 100px;
+
+}
+
+.call-wrapper {
+
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+    padding: 50px 100px;
+    border-radius: 8px;
+
+
+}
+.call-text {
+
+    flex-direction: column;
+    justify-content: left;
+}
+
+.call-text > * {
+
+    color: #E5E7EB;
+    margin: 0px auto;
+}
+
+.call-button {
+
+    background-color: #3882f6;
+    border: 2px solid #E5E7EB;
+    color: #E5E7EB;
+    padding: 4px 30px;
+    border-radius: 8px;
 
 
 }
 
-    
 
+.footer {
 
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
 
 ul {
 
